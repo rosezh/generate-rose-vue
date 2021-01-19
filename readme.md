@@ -28,3 +28,16 @@ echo node_modules > .gitignore 创建gitignore
 git init
 git status    查看本地仓库的状态
 
+git add .
+
+git commit -m ''
+git remote add origin https://github.com/rosezh/generate-rose-vue.git
+
+git push -u origin master
+
+
+
+yarn publish
+
+yarn publish --registry=https://registry.yarnpkg.com
+
